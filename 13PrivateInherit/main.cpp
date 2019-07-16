@@ -13,7 +13,7 @@ public:
 
 };
 // Student is subclass. Subclass inherits from base class
-class Student : private Person{ // public inheritance
+class Student : private Person{ // private inheritance
 public:
     int id;
     void setId(int i){
